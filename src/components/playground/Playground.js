@@ -5,8 +5,6 @@ class Playground extends Component {
 
   PLAYER1_TURN = 'Player1\'s Turn!';
   PLAYER2_TURN = 'Player2\'s Turn!';
-  PLAYER1_WINS = 'Player1 Wins!';
-  PLAYER2_WINS = 'Player2 Wins!';
 
   manaSlots = 0;
   healthScore = 30;
@@ -14,8 +12,7 @@ class Playground extends Component {
   playerHand = ['','',''];
 
   statusMessages = {
-    "turn": { "player1": this.PLAYER1_TURN, "player2": this.PLAYER2_TURN},
-    "won":  { "player1": this.PLAYER1_WINS, "player2": this.PLAYER2_WINS}
+    "turn": { "player1": this.PLAYER1_TURN, "player2": this.PLAYER2_TURN}
   };
 
   state = {
