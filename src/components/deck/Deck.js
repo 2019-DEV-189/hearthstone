@@ -4,7 +4,9 @@ class Deck extends Component {
 
   render() {
     return (
-        <div className= "Deck"></div>
+        <div className= "Deck">
+           <div> "Player's Deck" </div>
+        </div>
     );
   }
 }
